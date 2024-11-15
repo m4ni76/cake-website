@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav a, footer p {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .cake-list {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .cake-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .cake-card img {
+    width: 100%;
+    height: auto;
+  }
